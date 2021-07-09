@@ -35,8 +35,7 @@
 <body>
     <form id="form1" runat="server">
 
-
-                <!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <button
         class="navbar-toggler"

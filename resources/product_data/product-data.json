@@ -1,12 +1,12 @@
 [
   {
-    "title": "Buzo Grete",
+    "title": "Buzo Grete Cambio",
     "description": "Buzo friza con lycra, manga larga ranglan. Capucha con cuello alto, Ojal y Cordón de ajuste. Bolsillo estilo canguro en el delantero. Terminación de puño y cintura con puño.",
     "color": "negro",
     "type": "buzo",
     "price": 5700,
-    "img": "buzo1-1.webp",
-    "imgSwitch": "buzo1-2.webp",
+    "img": "buzo1-1.jpg",
+    "imgSwitch": "buzo1-2.jpg",
     "offer": false
   },
   {
@@ -15,8 +15,8 @@
     "color": "azul",
     "type": "buzo",
     "price": 5400,
-    "img": "buzo2-1.webp",
-    "imgSwitch": "buzo2-2.webp",
+    "img": "buzo2-1.jpg",
+    "imgSwitch": "buzo2-2.jpg",
     "offer": true
   },
   {
@@ -25,8 +25,8 @@
     "color": "azul",
     "type": "buzo",
     "price": 4540,
-    "img": "buzo3-1.webp",
-    "imgSwitch": "buzo3-2.webp",
+    "img": "buzo3-1.jpg",
+    "imgSwitch": "buzo3-2.jpg",
     "offer": false
   },
   {
@@ -35,8 +35,8 @@
     "color": "blanco",
     "type": "remera",
     "price": 2900,
-    "img": "remera1-1.webp",
-    "imgSwitch": "remera1-2.webp",
+    "img": "remera1-1.jpg",
+    "imgSwitch": "remera1-2.jpg",
     "offer": false
   },
   {
@@ -45,8 +45,8 @@
     "color": "blanco",
     "type": "remera",
     "price": 2540,
-    "img": "remera2-1.webp",
-    "imgSwitch": "remera2-2.webp",
+    "img": "remera2-1.jpg",
+    "imgSwitch": "remera2-2.jpg",
     "offer": true
   },
   {
@@ -55,8 +55,8 @@
     "color": "verde",
     "type": "remera",
     "price": 2760,
-    "img": "remera3-1.webp",
-    "imgSwitch": "remera3-2.webp",
+    "img": "remera3-1.jpg",
+    "imgSwitch": "remera3-2.jpg",
     "offer": false
   },
   {
@@ -65,8 +65,8 @@
     "color": "gris",
     "type": "remera",
     "price": 2240,
-    "img": "remera4-1.webp",
-    "imgSwitch": "remera4-2.webp",
+    "img": "remera4-1.jpg",
+    "imgSwitch": "remera4-2.jpg",
     "offer": false
   },
   {
@@ -75,8 +75,8 @@
     "color": "roja",
     "type": "remera",
     "price": 2420,
-    "img": "remera5-1.webp",
-    "imgSwitch": "remera5-2.webp",
+    "img": "remera5-1.jpg",
+    "imgSwitch": "remera5-2.jpg",
     "offer": false
   },
   {
@@ -85,8 +85,8 @@
     "color": "azul",
     "type": "remera",
     "price": 2760,
-    "img": "remera6-1.webp",
-    "imgSwitch": "remera6-2.webp",
+    "img": "remera6-1.jpg",
+    "imgSwitch": "remera6-2.jpg",
     "offer": true
   },
   {
@@ -95,8 +95,8 @@
     "color": "negro",
     "type": "pantalon",
     "price": 4100,
-    "img": "pantalon1-1.webp",
-    "imgSwitch": "pantalon1-2.webp",
+    "img": "pantalon1-1.jpg",
+    "imgSwitch": "pantalon1-2.jpg",
     "offer": false
   },
   {
@@ -105,8 +105,8 @@
     "color": "negro",
     "type": "pantalon",
     "price": 2910,
-    "img": "pantalon2-1.webp",
-    "imgSwitch": "pantalon2-2.webp",
+    "img": "pantalon2-1.jpg",
+    "imgSwitch": "pantalon2-2.jpg",
     "offer": false
   },
   {
@@ -115,8 +115,8 @@
     "color": "gris",
     "type": "pantalon",
     "price": 3020,
-    "img": "pantalon3-1.webp",
-    "imgSwitch": "pantalon3-2.webp",
+    "img": "pantalon3-1.jpg",
+    "imgSwitch": "pantalon3-2.jpg",
     "offer": true
   },
   {
@@ -125,8 +125,8 @@
     "color": "celeste",
     "type": "pantalon",
     "price": 3440,
-    "img": "pantalon4-1.webp",
-    "imgSwitch": "pantalon4-2.webp",
+    "img": "pantalon4-1.jpg",
+    "imgSwitch": "pantalon4-2.jpg",
     "offer": false
   },
   {
@@ -135,8 +135,8 @@
     "color": "roja",
     "type": "campera",
     "price": 5090,
-    "img": "campera1-1.webp",
-    "imgSwitch": "campera1-2.webp",
+    "img": "campera1-1.jpg",
+    "imgSwitch": "campera1-2.jpg",
     "offer": false
   },
   {
@@ -145,8 +145,8 @@
     "color": "gris",
     "type": "campera",
     "price": 5270,
-    "img": "campera2-1.webp",
-    "imgSwitch": "campera2-2.webp",
+    "img": "campera2-1.jpg",
+    "imgSwitch": "campera2-2.jpg",
     "offer": true
   },
   {
@@ -154,9 +154,9 @@
     "description": "Musculosa larga Sportech. Escote redondo y terminación de Sisa con Vista interna. Detalle de cuello con morley. Vivo en los laterales y estampa en el delantero superior ambos a contracolor.",
     "color": "azul",
     "type": "musculosa",
-    "price": 2440,
-    "img": "musculosa1-1.webp",
-    "imgSwitch": "musculosa1-2.webp",
+    "price": 2450,
+    "img": "musculosa1-1.jpg",
+    "imgSwitch": "musculosa1-2.jpg",
     "offer": false
   },
   {
@@ -165,8 +165,8 @@
     "color": "verde",
     "type": "musculosa",
     "price": 2280,
-    "img": "musculosa2-1.webp",
-    "imgSwitch": "musculosa2-2.webp",
+    "img": "musculosa2-1.jpg",
+    "imgSwitch": "musculosa2-2.jpg",
     "offer": true
   },
   {
@@ -175,8 +175,8 @@
     "color": "negra",
     "type": "musculosa",
     "price": 2180,
-    "img": "musculosa3-1.webp",
-    "imgSwitch": "musculosa3-2.webp",
+    "img": "musculosa3-1.jpg",
+    "imgSwitch": "musculosa3-2.jpg",
     "offer": true
   }
 ]
