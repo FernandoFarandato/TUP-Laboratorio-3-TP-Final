@@ -64,18 +64,76 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="resources\html\contact-section.aspx" />
+    <Content Include="index-section.aspx" />
+    <Content Include="resources\html\offers-section.aspx" />
+    <Content Include="resources\html\products-section.aspx" />
+    <Content Include="resources\html\request-section.aspx" />
+    <Content Include="resources\css\style.css" />
+    <Content Include="resources\js\contact-script.js" />
+    <Content Include="resources\js\index-script.js" />
+    <Content Include="resources\js\offers-script.js" />
+    <Content Include="resources\js\products-script.js" />
+    <Content Include="resources\js\request-script.js" />
     <Content Include="Web.config" />
+    <Content Include="WebFormPrueba.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="resources\html\contact-section.aspx.cs">
+      <DependentUpon>contact-section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resources\html\contact-section.aspx.designer.cs">
+      <DependentUpon>contact-section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index-section.aspx.cs">
+      <DependentUpon>index-section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index-section.aspx.designer.cs">
+      <DependentUpon>index-section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resources\html\offers-section.aspx.cs">
+      <DependentUpon>offers-section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resources\html\offers-section.aspx.designer.cs">
+      <DependentUpon>offers-section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resources\html\products-section.aspx.cs">
+      <DependentUpon>products-section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resources\html\products-section.aspx.designer.cs">
+      <DependentUpon>products-section.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="resources\html\request-section.aspx.cs">
+      <DependentUpon>request-section.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resources\html\request-section.aspx.designer.cs">
+      <DependentUpon>request-section.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormPrueba.aspx.cs">
+      <DependentUpon>WebFormPrueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormPrueba.aspx.designer.cs">
+      <DependentUpon>WebFormPrueba.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="resources\product_data\product-data.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources\images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

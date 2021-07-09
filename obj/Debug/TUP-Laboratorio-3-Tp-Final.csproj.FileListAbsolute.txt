@@ -1,0 +1,7 @@
+C:\Users\ferfa\Documents\GitHub\TUP-Laboratorio 3\TUP-Laboratorio-3-Trabajo-Practico-Final\TUP-Laboratorio-3-Tp-Final\bin\TUP-Laboratorio-3-Tp-Final.dll.config
+C:\Users\ferfa\Documents\GitHub\TUP-Laboratorio 3\TUP-Laboratorio-3-Trabajo-Practico-Final\TUP-Laboratorio-3-Tp-Final\bin\TUP-Laboratorio-3-Tp-Final.dll
+C:\Users\ferfa\Documents\GitHub\TUP-Laboratorio 3\TUP-Laboratorio-3-Trabajo-Practico-Final\TUP-Laboratorio-3-Tp-Final\bin\TUP-Laboratorio-3-Tp-Final.pdb
+C:\Users\ferfa\Documents\GitHub\TUP-Laboratorio 3\TUP-Laboratorio-3-Trabajo-Practico-Final\TUP-Laboratorio-3-Tp-Final\obj\Debug\TUP-Laboratorio-3-Tp-Final.csprojAssemblyReference.cache
+C:\Users\ferfa\Documents\GitHub\TUP-Laboratorio 3\TUP-Laboratorio-3-Trabajo-Practico-Final\TUP-Laboratorio-3-Tp-Final\obj\Debug\TUP-Laboratorio-3-Tp-Final.csproj.CoreCompileInputs.cache
+C:\Users\ferfa\Documents\GitHub\TUP-Laboratorio 3\TUP-Laboratorio-3-Trabajo-Practico-Final\TUP-Laboratorio-3-Tp-Final\obj\Debug\TUP-Laboratorio-3-Tp-Final.dll
+C:\Users\ferfa\Documents\GitHub\TUP-Laboratorio 3\TUP-Laboratorio-3-Trabajo-Practico-Final\TUP-Laboratorio-3-Tp-Final\obj\Debug\TUP-Laboratorio-3-Tp-Final.pdb
