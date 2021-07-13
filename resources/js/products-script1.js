@@ -1,19 +1,16 @@
 ﻿/** @format */
 
 const section = window.location.href.split("/");
-console.log(`You are in  ${section[section.length - 1]}`);
+console.log(`You are in The ${section[section.length - 1]}`);
 
 const productContainer = document.querySelector("#product--container");
-
 
 $(document).ready(function () {
     fetchProducts();
 });
 
-
-
 async function fetchProducts() {
-    fetch("./../data/product-data.json")
+    fetch("../product_data/product-data.json")
         .then((response) => response.json())
         .then((data) => renderProducts(data));
 }

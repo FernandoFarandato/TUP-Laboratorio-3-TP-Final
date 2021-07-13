@@ -65,15 +65,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="resources\html\contact-section.aspx" />
-    <Content Include="index-section.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="resources\html\offers-section.aspx" />
     <Content Include="resources\html\products-section.aspx" />
     <Content Include="resources\html\request-section.aspx" />
     <Content Include="resources\css\style.css" />
     <Content Include="resources\js\contact-script.js" />
     <Content Include="resources\js\index-script.js" />
-    <Content Include="resources\js\offers-script.js" />
-    <Content Include="resources\js\products-script.js" />
+    <Content Include="resources\js\offers-script1.js" />
+    <Content Include="resources\js\products-script1.js" />
     <Content Include="resources\js\request-script.js" />
     <Content Include="Web.config" />
     <Content Include="WebFormPrueba.aspx" />
@@ -86,12 +86,12 @@
     <Compile Include="resources\html\contact-section.aspx.designer.cs">
       <DependentUpon>contact-section.aspx</DependentUpon>
     </Compile>
-    <Compile Include="index-section.aspx.cs">
-      <DependentUpon>index-section.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index-section.aspx.designer.cs">
-      <DependentUpon>index-section.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="resources\html\offers-section.aspx.cs">
       <DependentUpon>offers-section.aspx</DependentUpon>

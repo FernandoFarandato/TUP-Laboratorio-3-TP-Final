@@ -25,17 +25,12 @@
     <!-- JQuerry-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- JavaScript File -->
-    <script defer src="./../js/products-script.js"></script>
-
     <title>La Utileria</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <button
+        <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -43,116 +38,63 @@
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
-      >
+        >
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-dark navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link active" href="./../../index.html" id="home"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              href="./offers-section.html"
-              id="offers-section"
-              >Ofertas</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              href="./request-section.html"
-              id="request-section"
-              >Solicitar producto</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#" id="products-section"
-              >Productos</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              href="./contact-section.html"
-              id="contact-section"
-              >Contacto</a
-            >
-          </li>
+        </button>
+        <div class="collapse navbar-dark navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link active" href="./../../index.aspx" id="home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active"href="./offers-section.aspx" id="offers-section">Ofertas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./request-section.aspx" id="request-section" >Solicitar producto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#" id="products-section">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="./contact-section.aspx" id="contact-section" >Contacto</a>
+            </li>
         </ul>
-      </div>
+        </div>
     </nav>
 
-    <!-- Main HTML -->
-    <main class="mt-4">
-      <!-- Products Section -->
-      <div class="productos pagina">
-        <!-- Banner -->
-        <div class="container-fluid my-4 p-4 banner--titulo">
-          <h4 class="text-center display-4">Productos</h4>
-        </div>
-        <!-- Products Cards -->
-        <div class="container-fluid" id="product--container"></div>
-      </div>
-    </main>
+    <form id="form1" runat="server">
+        <!-- Main HTML -->
+        <main class="mt-4">
+            <!-- Products Section -->
+            <div class="productos pagina">
+                <!-- Banner -->
+                <div class="container-fluid my-4 p-4 banner--titulo">
+                    <h4 class="text-center display-4">Productos</h4>
+                </div>
+                <!-- Products Cards -->
+                <div class="container-fluid" id="product--container"></div>
+            </div>
+        </main>
+    </form>
 
     <!-- Comprar Modal -->
-    <div
-      class="modal fade"
-      id="exampleModalCenter"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="confirmacionCompra">
-              Producto Agregado a tu carrito!
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmacionCompra">
+                        Producto Agregado a tu carrito!
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!-- Submit Modal -->
-    <div
-      class="modal fade show"
-      id="submitModal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="confirmacionSubmit">Enviado!</h5>
-            <button
-              type="button"
-              class="close"
-              id="closeModal"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </form>
+    <!-- JavaScript File -->
+    <script src="./../js/products-script1.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

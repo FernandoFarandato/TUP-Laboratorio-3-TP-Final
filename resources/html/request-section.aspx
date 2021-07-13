@@ -31,8 +31,6 @@
     <title>La Utileria</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <button
@@ -49,14 +47,14 @@
       <div class="collapse navbar-dark navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link active" href="./../../index.html" id="home"
+            <a class="nav-link active" href="./../../index.aspx" id="home"
               >Home</a
             >
           </li>
           <li class="nav-item">
             <a
               class="nav-link active"
-              href="./offers-section.html"
+              href="./offers-section.aspx"
               id="offers-section"
               >Ofertas</a
             >
@@ -69,7 +67,7 @@
           <li class="nav-item">
             <a
               class="nav-link active"
-              href="./products-section.html"
+              href="./products-section.aspx"
               id="products-section"
               >Productos</a
             >
@@ -77,7 +75,7 @@
           <li class="nav-item">
             <a
               class="nav-link active"
-              href="./contact-section.html"
+              href="./contact-section.aspx"
               id="contact-section"
               >Contacto</a
             >
@@ -86,93 +84,85 @@
       </div>
     </nav>
 
-    <!-- Main HTML -->
-    <main class="mt-4">
-      <!-- Solicitar Productos Section -->
-      <div class="solicitarProudctos pagina">
-        <!-- Banner -->
-        <div class="container-fluid my-4 p-4 banner--titulo">
-          <h4 class="text-center display-4">Personalizado</h4>
-        </div>
-        <!-- Form -->
-        <div class="container">
-          <form class="m-4" id="formRequest">
-            <div class="form-group">
-              <label for="inputEmail">Correo Electronico</label>
-              <input
-                type="email"
-                class="form-control"
-                id="inputEmail"
-                placeholder="name@example.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="sizeInput">Talle</label>
-              <select class="form-control" id="sizeInput">
-                <option>XS</option>
-                <option>S</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
-              </select>
-            </div>
+    <form id="form1" runat="server">
+        <!-- Main HTML -->
+        <main class="mt-4">
+            <!-- Solicitar Productos Section -->
+            <div class="solicitarProudctos pagina">
+                <!-- Banner -->
+                <div class="container-fluid my-4 p-4 banner--titulo">
+                    <h4 class="text-center display-4">Personalizado</h4>
+                </div>
 
-            <div class="form-group">
-              <label for="typeInput">Tipo de Prenda</label>
-              <select class="form-control" id="typeInput">
-                <option>Remera</option>
-                <option>Musculosa</option>
-                <option>Campera</option>
-                <option>Pantalones</option>
-                <option>Shorts</option>
-              </select>
-            </div>
+                <div class="container">
+                    
+                    <div class="m-4" id="formRequest">
+                        <div class="mb-3 form-group">
+                            <label for="inputEmail" cssClass="form-label" class="text-white bg-dark rounded p-1 px-2">Correo Electronico</label>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" Type="Email" Display="Dynamic" runat="server" ErrorMessage="Campo Obligatorio." ControlToValidate="inputEmail" cssClass="bg-warning rounded p-1 px-2" ></asp:RequiredFieldValidator>
+                            <asp:TextBox ID="inputEmail" TextMode="Email" runat="server" cssClass="form-control danger" ></asp:TextBox>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="sizeInput" class="text-white bg-dark rounded p-1 px-2">Talle</label>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" Display="Dynamic" runat="server" ErrorMessage="Campo Obligatorio." ControlToValidate="sizeInput" cssClass="bg-warning rounded p-1 px-2" ></asp:RequiredFieldValidator>
+                            <asp:DropDownList ID="sizeInput" runat="server" cssClass="form-control">
+                                <asp:ListItem Text="XS" Value="XS"></asp:ListItem>
+                                <asp:ListItem Text="S" Value="S"></asp:ListItem>
+                                <asp:ListItem Text="M" Value="M"></asp:ListItem>
+                                <asp:ListItem Text="L" Value="L"></asp:ListItem>
+                                <asp:ListItem Text="XL" Value="XL"></asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
 
-            <div class="form-group">
-              <label for="inputMessagge"
-                >Que quieres que contenga tu prenda?</label
-              >
-              <textarea
-                class="form-control"
-                id="inputMessagge"
-                rows="3"
-              ></textarea>
+                        <div class="form-group">
+                            <label for="typeInput" class="text-white bg-dark rounded p-1 px-2">Tipo de Prenda</label>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" Display="Dynamic" runat="server" ErrorMessage="Campo Obligatorio." ControlToValidate="typeInput" cssClass="bg-warning rounded p-1 px-2" ></asp:RequiredFieldValidator>
+                            <asp:DropDownList ID="typeInput" runat="server" cssClass="form-control">
+                                <asp:ListItem Text="Remera" Value="Remera"></asp:ListItem>
+                                <asp:ListItem Text="Musculosa" Value="Musculosa"></asp:ListItem>
+                                <asp:ListItem Text="Campera" Value="Campera"></asp:ListItem>
+                                <asp:ListItem Text="Pantalones" Value="Pantalones"></asp:ListItem>
+                                <asp:ListItem Text="Shorts" Value="Shorts"></asp:ListItem>
+                            </asp:DropDownList>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inputMessagge" class="text-white bg-dark rounded p-1 px-2">Que quieres que contenga tu prenda?</label>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" Display="Dynamic" runat="server" ErrorMessage="Campo Obligatorio." ControlToValidate="inputMessagge" cssClass="bg-warning rounded p-1 px-2" ></asp:RequiredFieldValidator>
+                            <asp:TextBox ID="inputMessagge" TextMode="MultiLine" rows="3" runat="server" cssClass="form-control" ></asp:TextBox>
+                        </div>
+                        <asp:Button ID="buttonSubmitForm" runat="server" cssClass="btn btn-primary disabled" Text="Enviar" />
+                  </div>
+                </div>
             </div>
-            <button class="btn btn-primary disabled" id="buttonSubmitForm">
-              Enviar
-            </button>
-          </form>
-        </div>
-      </div>
-    </main>
+        </main>
 
     <!-- Submit Modal -->
     <div
-      class="modal fade show"
-      id="submitModal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
+        class="modal fade show"
+        id="submitModal"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="confirmacionSubmit">Enviado!</h5>
-            <button
-              type="button"
-              class="close"
-              id="closeModal"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmacionSubmit">Enviado!</h5>
+                <button
+                    type="button"
+                    class="close"
+                    id="closeModal"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                >
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
         </div>
-      </div>
     </div>
-    </div>
-    </form>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -191,5 +181,7 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-</body>
+    </form>
+
+    </body>
 </html>

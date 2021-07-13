@@ -8,7 +8,7 @@ $(document).ready(function () {
 });
 
 async function fetchProducts() {
-    fetch("./../data/product-data.json")
+    fetch("../product_data/product-data.json")
         .then((response) => response.json())
         .then((data) => renderProducts(data));
 }
@@ -65,5 +65,3 @@ const renderProducts = function (products) {
 
     $("#offers--container").append(html);
 };
-
-fetchProducts();
